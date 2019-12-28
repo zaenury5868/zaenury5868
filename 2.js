@@ -24,5 +24,3 @@ function is_username_valid(username){
         return false;
     }
 }
-
-console.log(is_username_valid("agil_123"))
