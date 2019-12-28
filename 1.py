@@ -1,6 +1,3 @@
-import json
-
-
 def get_biodata(name, age):
     biodata = {
         "name": name,
@@ -47,7 +44,7 @@ def get_biodata(name, age):
         "interest_in_coding": True
     }
 
-    return json.dumps(biodata)
+    return biodata
 
 
 print(get_biodata("Zaenury Dhany Wibowo", 23))
