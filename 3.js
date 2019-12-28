@@ -1,5 +1,5 @@
 function printWords(words){
-    const vocals = ['a', 'i', 'u', 'e', 'o'];
+    const vocals = ['a', 'i', 'u', 'e', 'o', 'A', 'I', 'U', 'E', 'O'];
     var filtered_words = [];
 
     for (let i = 0; i < words.length; i++) {
@@ -13,3 +13,5 @@ function printWords(words){
         }
     }
 }
+
+console.log(printWords("ARKADEMY"))

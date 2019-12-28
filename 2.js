@@ -24,3 +24,7 @@ function is_username_valid(username){
         return false;
     }
 }
+
+console.log(is_name_valid('dani'));
+console.log(is_age_valid(23));
+console.log(is_username_valid("dani_123"))
