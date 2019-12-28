@@ -17,10 +17,12 @@ function is_age_valid(age){
 }
 
 function is_username_valid(username){
-    var regex = new RegExp("^[a-z]_[0-9]$");
+    var regex = new RegExp("^[a-z]{4}_+[0-9]{3}$");
     if (regex.test(username)) {
         return true;
     } else {
         return false;
     }
 }
+
+console.log(is_username_valid("agil_123"))
