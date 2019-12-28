@@ -47,4 +47,4 @@ function getBiodata(name, age){
     return biodata
 }
 
-console.log(getBiodata("agil", 20))
+console.log(getBiodata("Zaenury Dhany Wibowo", 25))
